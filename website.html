@@ -77,6 +77,28 @@
             <p> A Lone Bighorn Sheep, Guanella Pass, Sept. '21</p>
         </div>
     </div>
-
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAPzS5qNjwbXMUqFEvs2SVAlrCeWyn_kf4",
+          authDomain: "mainpage-428c6.firebaseapp.com",
+          projectId: "mainpage-428c6",
+          storageBucket: "mainpage-428c6.appspot.com",
+          messagingSenderId: "823434537935",
+          appId: "1:823434537935:web:d699e5cdfa2248017b40ba",
+          measurementId: "G-XKG7LSHY82"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>
